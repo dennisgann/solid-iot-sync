@@ -1,0 +1,29 @@
+{
+  "name": "solid-iot-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/sync.js",
+  "dependencies": {
+    "@inrupt/solid-client": "1.6.1",
+    "@inrupt/solid-client-authn-node": "^1.7.2",
+    "@inrupt/vocab-common-rdf": "^0.7.4",
+    "@oznu/hap-client": "^1.7.2",
+    "ws": "^7.4.4",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.1",
+    "@types/yargs": "^16.0.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc --outDir dist sync.ts",
+    "start": "node dist/sync.js"
+  },
+  "bin": {
+    "solid-iot-sync": "./dist/sync.js"
+  },
+  "author": "Dennis Gann (https://dcg.nz)",
+  "license": "ISC"
+}

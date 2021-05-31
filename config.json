@@ -1,0 +1,11 @@
+{
+  "token": "",
+  "id": "",
+  "secret": "",
+  "idp": "https://solidcommunity.net",
+  "pin": "123-45-678",
+  "homeUrl": "https://example.solidcommunity.net/private/ExampleHome",
+  "debug": true,
+  "verbose": true,
+  "groupName": "ExampleHome"
+}
